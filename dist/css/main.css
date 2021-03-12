@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "comfortaa";
+  src: url("./dist/fonts/proximanova-regular.otf");
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #f8f8f8;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+a:hover {
+  color: #e0d33c;
+}
+
+* {
+  font-family: "comfortaa", sans-serif;
+  color: #f8f8f8;
+}
+
+/*# sourceMappingURL=main.css.map */
