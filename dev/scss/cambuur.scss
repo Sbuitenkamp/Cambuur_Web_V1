@@ -1,0 +1,66 @@
+@import "main";
+
+.body {
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__video {
+    background-color: $primaryblue;
+    width: 60%;
+    border-radius: 15px;
+    height: 75vh;
+
+    &__thumbnail {
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+      width: 100%;
+      position: relative;
+      z-index: 0;
+    }
+
+    &__play-button {
+      position: relative;
+      z-index: 2;
+      bottom: 40%;
+      left: 53%;
+      font-size: 60pt;
+      margin: -43px;
+    }
+
+    &__description {
+      margin: 0 1%;
+      font-size: 18pt;
+    }
+
+    &:hover {
+      cursor: pointer;
+
+      .body__video__play-button {
+        i {
+          color: $accents;
+        }
+      }
+    }
+  }
+
+  &__text {
+    margin: 2% 2%;
+    font-size: 18pt;
+    padding: 1% 2%;
+    width: 80%;
+    height: 70vh;
+    text-align: justify;
+    background-color: $primarygreen;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+    &__img {
+      width: 20%;
+      float: right;
+      margin: 0 0 0 2%;
+    }
+  }
+}

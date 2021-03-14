@@ -1,0 +1,30 @@
+@import "main";
+
+.body {
+
+  &__text {
+    margin: 0 2%;
+    font-size: 18pt;
+    padding: 1% 2%;
+    width: 90%;
+    height: 60vh;
+    text-align: justify;
+    background-color: $primarygreen;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+
+    &__paragraph {
+      &__img {
+        float: right;
+        width: 20%;
+        margin: 0 0 0 2%;
+      }
+
+      &__text {
+      }
+
+    }
+  }
+
+}

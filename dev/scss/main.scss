@@ -35,7 +35,15 @@ html, body {
     background-color: $primarygreen;
 
     &__placeholder {
+      padding-top: 25%;
+      display: block;
+      width: 100%;
+      height: 70%;
       text-align: center;
+
+      &:hover {
+        color: $accents;
+      }
     }
   }
 
@@ -46,6 +54,10 @@ html, body {
 
     &__element {
       margin: 0 5%;
+
+      &--active {
+        color: $accents;
+      }
     }
   }
 }
@@ -81,12 +93,46 @@ html, body {
 
       &__link {
         color: $accents;
+        margin-right: 8%;
       }
     }
   }
 }
 
-.footer {}
+.body {
+  margin: 8% 2% 4%;
+  min-height: 60vh;
+}
+
+.footer {
+  width: 100%;
+  height: 15vh;
+
+  &__contact {
+    float: left;
+    margin: 2%;
+  }
+
+  &__logo {
+    float: right;
+    width: 8%;
+    height: 15vh;
+    margin: 0 3% 5% 0;
+    background-color: $primarygreen;
+
+    &__placeholder {
+      padding-top: 40%;
+      display: block;
+      width: 100%;
+      height: 58%;
+      text-align: center;
+
+      &:hover {
+        color: $accents;
+      }
+    }
+  }
+}
 
 a {
   text-decoration: none;

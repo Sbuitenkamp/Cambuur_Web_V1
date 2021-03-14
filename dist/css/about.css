@@ -125,18 +125,11 @@ a:hover {
   transition: 0.1s;
 }
 
-.body {
-  margin: 8% 2% 4%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-}
-.body__textbox {
+.body__text {
   margin: 0 2%;
   font-size: 18pt;
   padding: 1% 2%;
-  width: 40%;
+  width: 90%;
   height: 60vh;
   text-align: justify;
   background-color: #38cb5a;
@@ -144,45 +137,10 @@ a:hover {
   -moz-border-radius: 15px;
   border-radius: 15px;
 }
-.body__textbox__image {
+.body__text__paragraph__img {
   float: right;
-  width: 40%;
-  margin: 1% 0 0 2%;
-}
-.body__video {
-  margin: 0 2%;
-  width: 45%;
-  height: 60vh;
-  padding: 0 0 2%;
-  background-color: #4561bd;
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
-  border-radius: 15px;
-}
-.body__video__frame {
-  position: relative;
-  z-index: 0;
-  width: 100%;
-  border-top-right-radius: 15px;
-  border-top-left-radius: 15px;
-}
-.body__video__play-button {
-  position: relative;
-  z-index: 2;
-  bottom: 40%;
-  left: 53%;
-  font-size: 60pt;
-  margin: -43px;
-}
-.body__video__description {
-  margin: 0 1%;
-  font-size: 18pt;
-}
-.body__video:hover {
-  cursor: pointer;
-}
-.body__video:hover .body__video__play-button i {
-  color: #e0d33c;
+  width: 20%;
+  margin: 0 0 0 2%;
 }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=about.css.map */
